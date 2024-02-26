@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.imgHeader {
+  height: 2Opx;
+  width: 20px;
+}

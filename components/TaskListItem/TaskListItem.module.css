@@ -1,0 +1,22 @@
+.root {
+  padding: 10px 15px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(246, 246, 246);
+  }
+}
+.taskTitle {
+  margin-left: 5px;
+}
+.completedTask {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.trash {
+  cursor: pointer;
+  color: rgb(232, 89, 89);
+}
